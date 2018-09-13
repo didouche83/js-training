@@ -10,8 +10,20 @@
  * https://github.com/nan-academy/refs/blob/master/js-training/methods.md#string---transform
  */
 
+ 
+
+ function cutFirst(chaine){
+	return chaine.substr(0,1)		
+}
+
+function cutLast (chaine) {
+	return chaine.substr(chaine.length - 2)
+}
+
 //* Begin of tests
 const assert = require('assert')
+
+
 
 assert.fail('You must write your own tests')
 // End of tests */
