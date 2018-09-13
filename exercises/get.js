@@ -18,7 +18,7 @@ const sourceObject = {
 // Your code :
 
 const get = (type) => {
-	return sourceObject.type;
+	return sourceObject[type];
 }
 
 //* Begin of tests
